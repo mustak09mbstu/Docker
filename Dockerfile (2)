@@ -28,7 +28,7 @@ RUN mkdir -p target/dependency && (cd target/dependency; jar -xf ../*.jar)
 FROM openjdk:8-jre-alpine
 
 ARG GRAYLOG_HOST
-ENV GRAYLOG_HOST ${GRAYLOG_HOST:-'dockerlogs.valmet.com'}
+ENV GRAYLOG_HOST ${GRAYLOG_HOST:-'dockerlogs.test.com'}
 ARG GRAYLOG_PORT
 ENV GRAYLOG_PORT ${GRAYLOG_PORT:-'12201'}
 
