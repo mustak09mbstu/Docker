@@ -1,6 +1,6 @@
 FROM tomcat:8.0-alpine
 
-LABEL maintainer=”mdmustafizur.rahman@bjitgroup.com”
+LABEL maintainer=”mdmustafizur.rahman@gmail.com”
 
 ADD sample.war /usr/local/tomcat/webapps/
 
